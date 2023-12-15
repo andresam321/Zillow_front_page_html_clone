@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header-container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.left-container{
+    /* display: flex; */   
+    /* display: flex; */
+    font-size: large;
+    justify-content:space-between;
+    /* margin-left: 100px; */
+    
+}
+.buy{
+    font-size: x-large;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    cursor: grab;
+    
+}
+.zillowLogo{
+    height: 40px;
+    width: 150px;
+    cursor: grab;
+}
+
+
+.big-image-container{
+    background-color: bisque;
+    height: 400px;
+    background-image: url(zillow_background-image..webp);
+}
+.search-button{
+    height: 30px;
+    width: 25px;
+    padding-left: 10px;
+}
+#display-flex{
+    /* display: flex;
+    text-align: center; */
+}
+.main-text{
+    font-size: xx-large;
+    color:white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+.search-text{
+    text-align: center;
+}
+#stretch-search{
+    width:600px;
+    height: 65px;
+    border-radius: 1px;
+}
+h1{
+     /* margin-left: 300px; 
+     margin-top: 40px;  */
+     margin-left:305px;
+     font-size: medium;
+     padding-top: 30px;
+}
+.main-header-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+#left-arrow-image{
+    height: 40px;
+    width: 40px;
+    transform: scale(-1);
+    /* filter: flipH;
+    -ms-filter: flipH; */
+    margin-bottom: 10px;
+
+}
+#right-arrow-image{
+    background-color: white;
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin-right: 260px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+/* #right-arrow-image:hover{
+box-shadow: 0 4px 8px 0 rgba(255, 23, 23, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+} */
+.main-box{
+    display: flex;
+    /* border: 1px solid red; */
+   height: 400px;
+   justify-content: center;
+  cursor: grab;
+   /* align-items: center; */
+
+}
+.box-1{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* height: 100px; */
+margin: 10px;
+height: 320px;
+width: 330px;
+
+
+}
+.box-1:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-2:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-3:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-4:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-2{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* height: 100px; */
+margin: 10px;
+height: 320px;
+width: 330px;
+}
+.box-3{
+margin: 10px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* height: 100px; */
+margin: 10px;
+height: 320px;
+width: 330px;
+}
+.box-4{
+margin: 10px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* height: 100px; */
+margin: 10px;
+height: 320px;
+width: 330px;
+}
+.images{
+    border-radius: 10px;
+    height: 200px;
+    width: 330px;
+    position: relative;
+    /* padding-left:5px;
+    padding-top: 5px; */
+
+}
+.image-textOne{
+color: white;
+background-color: black;
+padding: 5px;
+border-radius: 100px;
+position: absolute;
+top: 60%;
+left: 36.5%;
+transform: translate(-50%, -50%)
+      
+}
+.image-textTwo{
+color: white;
+background-color: black;
+padding: 5px;
+border-radius: 100px;
+    
+position: absolute;
+top: 60%;
+left: 55%;
+transform: translate(-50%, -50%)
+      
+}
+.image-textThree{
+ color: white;
+background-color: black;
+padding: 5px;
+border-radius: 100px;   
+position: absolute;
+top: 60%;
+left: 72%;
+transform: translate(-50%, -50%)
+      
+}
+.image-textFour{
+color: white;
+ background-color: black;
+padding: 5px;
+border-radius: 100px;   
+position: absolute;
+top: 60%;
+left: 17%;
+transform: translate(-50%, -50%)
+       
+}
+.box-text{
+    
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: stretch; */
+    
+}
+p{
+    padding: 5px;
+}
